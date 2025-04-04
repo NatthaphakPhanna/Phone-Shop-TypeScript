@@ -8,7 +8,7 @@ interface NavbarProps {
 }
 
 const ClassicNavbar: React.FC<NavbarProps> = ({
-    companyName = "MeenMobileShop",
+    companyName = "MeanMobileShop",
     phoneNumber = "(66+) 012-345678"
 }) => {
     const [activePage, setActivePage] = useState<string>("Home");

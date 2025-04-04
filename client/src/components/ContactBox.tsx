@@ -11,9 +11,9 @@ const ContactBox = (): React.JSX.Element => {
             </div>
             <div className="description">
                 <div className="list">
-                    <li>Facebook: Meen Mobile Official</li>
-                    <li>LINE: @MeenMobile</li>
-                    <li>Instagram: @MeenMobileShop</li>
+                    <li>Facebook: Mean Mobile Official</li>
+                    <li>LINE: @MeanMobile</li>
+                    <li>Instagram: @MeanMobileShop</li>
                 </div>
             </div>
         </div>

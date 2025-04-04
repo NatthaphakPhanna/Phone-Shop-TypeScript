@@ -9,11 +9,11 @@ const Footer = (): React.JSX.Element => {
 
           {/* Company Info */}
           <div className="footer-column">
-            <h3 className="footer-title">MeenMobileShop</h3>
+            <h3 className="footer-title">MeanMobileShop</h3>
             <p className="footer-text">123 Street Srijan</p>
             <p className="footer-text">City, Khonkaen 12345</p>
             <p className="footer-text">Phone: (66+) 012-345678</p>
-            <p className="footer-text">Email: MeenMobile@gmail.com</p>
+            <p className="footer-text">Email: MeanMobile@gmail.com</p>
           </div>
 
           {/* Quick Links */}
@@ -51,7 +51,7 @@ const Footer = (): React.JSX.Element => {
 
         {/* Bottom Section */}
         <div className="footer-bottom">
-          <p>&copy; 2025 MeenMobileShop. All rights reserved.</p>
+          <p>&copy; 2025 MeanMobileShop. All rights reserved.</p>
           <div className="footer-socials">
             <a href="#" aria-label="Facebook">📘</a>
             <a href="#" aria-label="Twitter">🐦</a>

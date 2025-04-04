@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import imageHero from '../../public/MeenProfile.png'
+import imageHero from '../../public/MeanProfile.png'
 import { TypeAnimation } from 'react-type-animation'
 import { SlideshowLightbox, initLightboxJS } from 'lightbox.js-react'
 
@@ -11,7 +11,7 @@ const hero = (): React.JSX.Element => {
     return (
         <div className='hero'>
             <div className="left">
-                <h1>MeenMobileShop</h1>
+                <h1>MeanMobileShop</h1>
                 <h2 className="description">
                     ร้านเรา {" "}
                     <TypeAnimation
