@@ -1,12 +1,11 @@
-import React from 'react';
-import '../index.css';
+import React from "react";
+import "../index.css";
 
 const Footer = (): React.JSX.Element => {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-columns">
-
           {/* Company Info */}
           <div className="footer-column">
             <h3 className="footer-title">MeanMobileShop</h3>
@@ -20,8 +19,12 @@ const Footer = (): React.JSX.Element => {
           <div className="footer-column">
             <h3 className="footer-title">Quick Links</h3>
             <ul className="footer-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Phone</a></li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Phone</a>
+              </li>
             </ul>
           </div>
 
@@ -29,14 +32,18 @@ const Footer = (): React.JSX.Element => {
           <div className="footer-column">
             <h3 className="footer-title">Resources</h3>
             <ul className="footer-list">
-              <li><a href="#">Privacy Policy</a></li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
             </ul>
           </div>
 
           {/* Newsletter */}
           <div className="footer-column">
             <h3 className="footer-title">Subscribe</h3>
-            <p className="footer-text">Subscribe to our newsletter for updates</p>
+            <p className="footer-text">
+              Subscribe to our newsletter for updates
+            </p>
             <form className="footer-form" onSubmit={(e) => e.preventDefault()}>
               <input
                 type="email"
@@ -44,7 +51,9 @@ const Footer = (): React.JSX.Element => {
                 className="footer-input"
                 required
               />
-              <button type="submit" className="footer-button">Subscribe</button>
+              <button type="submit" className="footer-button">
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
@@ -53,9 +62,15 @@ const Footer = (): React.JSX.Element => {
         <div className="footer-bottom">
           <p>&copy; 2025 MeanMobileShop. All rights reserved.</p>
           <div className="footer-socials">
-            <a href="#" aria-label="Facebook">📘</a>
-            <a href="#" aria-label="Twitter">🐦</a>
-            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Facebook">
+              📘
+            </a>
+            <a href="#" aria-label="Twitter">
+              🐦
+            </a>
+            <a href="#" aria-label="Instagram">
+              📷
+            </a>
           </div>
         </div>
       </div>
